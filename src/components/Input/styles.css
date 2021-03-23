@@ -1,0 +1,21 @@
+.camp-search {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0px;
+}
+
+.search {
+	min-width: 300px;
+	width: 70%;
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 2px 10px;
+}
+
+.search:focus {
+	outline: none;
+}

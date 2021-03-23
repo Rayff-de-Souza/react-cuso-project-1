@@ -1,0 +1,14 @@
+.posts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	gap: 20px;
+}
+
+.cards-config {
+	width: 300px;
+	min-width: 200px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4)
+}
